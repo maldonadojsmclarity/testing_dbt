@@ -8,7 +8,6 @@
     {%- else -%}
 
         {{ default_schema }}_{{ custom_schema_name | trim }}
-
-             {%- endif -%}
+    {%- endif -%}
 
 {%- endmacro %}
