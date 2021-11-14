@@ -1,6 +1,6 @@
 with source as (
 
-    select * from {{source('economy_data_atlas','dataset')}}
+    select * from {{source('economy_data_atlas','datasets')}}
 ), 
 
 renamed as (
